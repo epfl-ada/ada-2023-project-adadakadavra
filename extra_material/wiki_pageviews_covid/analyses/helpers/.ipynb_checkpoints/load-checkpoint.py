@@ -13,7 +13,9 @@ def load_topics(topics_path='../data/topics_linked.csv.xz'):
 
 def load_interventions(interventions_path='../data/interventions.csv'):
     # Loads intervention
+    print('test')
     interventions_df = pd.read_csv(interventions_path,sep = ';')
+    print(interventions_df)
     for col in interventions_df.columns:
         if col != "lang":
             interventions_df.loc[:, col] = pd.to_datetime(interventions_df.loc[:, col])
