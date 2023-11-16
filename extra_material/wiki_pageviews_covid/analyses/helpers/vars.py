@@ -81,8 +81,8 @@ interventions_helper = {
     '1st case': '1',
     '1st death': '2',
     'Public events banned': '3',
-    '1st school closure': '4',
-    '1st lockdown': '5',
+    'School closure': '4',
+    'Lockdown': '5',
     "Mobility": '6',
     "Normalcy": '7'
 }
