@@ -101,3 +101,4 @@ series?
 in the United States although the English Wikipedia and Google are used
 worldwide. Will it be sufficient to carefully interpret our results, or should we
 look for a way to identifiy online trends in the US?
+- We are somewhat stretching the assumptions of the Causal Impact analysis (e.g. correlation), which is besides meant to be used with only one causal effect (and not several tweets for instance). Can we carry on this way or should we look for more elaborate models?
