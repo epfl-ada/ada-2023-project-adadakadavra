@@ -80,10 +80,10 @@ topics = ['Culture.Biography.Biography*',
 interventions_helper = {
     '1st case in the US': '1',
     '1st death in the US': '2',
-    'First school closure in the US': '4',
-    'First lockdown in the US': '5',
-    "Mobility": '6',
-    "Normalcy": '7'
+    'First school closure in the US': '3',
+    'First lockdown in the US': '4',
+    "Mobility": '5',
+    "Normalcy": '6'
 }
 
 int_c = {
