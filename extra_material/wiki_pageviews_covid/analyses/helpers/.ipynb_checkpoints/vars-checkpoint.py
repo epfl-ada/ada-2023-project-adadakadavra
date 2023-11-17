@@ -78,31 +78,28 @@ topics = ['Culture.Biography.Biography*',
           'STEM.Technology']
 
 interventions_helper = {
-    '1st case': '1',
-    '1st death': '2',
-    'Public events banned': '3',
-    'School closure': '4',
-    'Lockdown': '5',
+    '1st case in the US': '1',
+    '1st death in the US': '2',
+    'First school closure in the US': '4',
+    'First lockdown in the US': '5',
     "Mobility": '6',
     "Normalcy": '7'
 }
 
 int_c = {
-    '1st case': '#e6ab02',
-    '1st death': '#66a61e',
-    'Public events banned': '#e7298a',
-    'School closure': '#d95f02',
-    'Lockdown': '#1b9e77',
+    '1st case in the US': '#e6ab02',
+    '1st death in the US': '#66a61e',
+    'First school closure in the US': '#d95f02',
+    'First lockdown in the US': '#1b9e77',
     "Mobility": '#000000',
     "Normalcy": '#000000'
 }
 
 int_ls = {
-    '1st case': '-',
-    '1st death': '-',
-    'Public events banned': '-',
-    'School closure': '-',
-    'Lockdown': '-',
+    '1st case in the US': '-',
+    '1st death in the US': '-',
+    'First school closure in the US': '-',
+    'First lockdown in the US': '-',
     "Mobility": '--',
     "Normalcy": '-'
 }
