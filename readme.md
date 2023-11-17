@@ -1,5 +1,6 @@
 # Donald Trump's influence during Covid: How bad can be the communication's impact of a leader?
 
+<img src="images/trump_sample_tweet.png">
 ## Abstract :
 
 Donald Trump’s many tweets during the Covid pandemic spread like wildfire, probably making him one of the most

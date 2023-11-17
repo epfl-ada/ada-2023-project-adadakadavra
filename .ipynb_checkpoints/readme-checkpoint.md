@@ -1,23 +1,28 @@
 # Donald Trump's influence during Covid: How bad can be the communication's impact of a leader?
 
+<img src="images/trump_sample_tweet.png">
 ## Abstract :
 
-Donald Trump was influential during Covid, wasn’t he? All the fake news that he spread are now very well documented.
-This project proposes to study the impact of his communication during Covid. By focusing on his tweets, we want to know
-if we can spot a causality between his declaration and the trends on Google and Wikipedia. If Donald Trump was not only
-tweeting Fake News, he was also tweeting about Vaccines and Lockdown, as comparison with the fake news, did these
-declarations had an impact? To do so, we'll focus on his tweets, analyzed through a list of known fake news, on Google
-and wikipedia trends and mobility reports. Finally, we'd like to assess how bad was a mixed communication between the
-official instances (such as FDA) and their leader. Knowing that this can a logical impact on vaccination and infection
-rate.
+Donald Trump’s many tweets during the Covid pandemic spread like wildfire, probably making him one of the most
+influential figures during the pandemic – but in the end, was he that influential? Will causal analyses of the effect of
+Trump’s tweets on Wikipedia and Google Trends pageviews show that he was leading or following online trends? Our
+goal is to study the impact an influential leader can have on information spread in a
+crisis with a focus on fake news, as an overload of misleading or contradictory
+statements (an infodemic, as [WHO](https://www.who.int/health-topics/infodemic#tab=tab_1) calls it) are known to have a detrimental impact on crisis
+management. To provide a more comprehensive insight into Trump’s actual influence
+on online information spread, we would then like to compare it with that of other
+factors such as mobility restrictions or key milestones (e.g. first Covid death). Trump
+the Trend Maker or Trump the Follower, that is the question!
 
 ## Research questions
 
-- Was Donald Trump a trend maker or a follower?
-- Can we spot correlation and even causality between his declarations and online trends?
-- Can we assess how bad the impact of his communcation was?
-- Finally, could we spot correlation with infections or vaccination rates ? (TO KEEP?)
-
+- Was Donald Trump a trend maker or a follower: can we spot a correlation or
+even causality between his declarations and online trends, i.e. Wikipedia or
+Google Trends pageviews?
+- Do his tweets have a more significant impact on information spread when
+they convey fake news?
+- How does Trump’s influence compare with that of other factors such as
+mobility restrictions or official announcements?
 ## Proposed additional datasets
 
 To conduct the analysis, we'll complete the given dataset with the following:
@@ -28,52 +33,73 @@ To conduct the analysis, we'll complete the given dataset with the following:
   reference : [GitHub](https://github.com/epfl-dlab/fact-checkers-fact-check/blob/main/data/kg_ids.json)
 - Data extracted from Google Trends and Wikipedia
 
-The first dataset is composed of DT tweets until 2021, it has very few missing datas and also includes the number of
-retweets, if the tweet has been deleted or not (which could be an indication of fake information).
+The first dataset is composed of Donald Trump tweets until 2021. It has very few
+missing values and also includes information such as the number of likes and
+retweets, and whether the tweet has been deleted or not (which could be an
+indicator of fake information).
+The second addition is a mapping between claim clusters and knowledge graph ids.
+Ribeiro et al. regrouped fact-checks from a dataset provided by the IFCN into 39
+clusters (e.g. with topic ‘alcohol’), which they matched with entities in Google
+Knowledge Graph, allowing us to search time series associated with the claims on
+Google Trends.
+Finally, we will directly search for pageviews time series for a few specific articles on
+Wikipedia or queries on Google Trends to conduct a more fine-grained analysis of
+information spread. This will allow us to track the evolution of pageviews for specific
+topic such as hydroxychloroquine on Wikipedia for instance.
 
 ## Method
-
-To study DT influence, we want to study causality between his tweets and the trends. This starts by studying the
-correlation between the time he tweets on a topic and the trends. Then, we have to draw causalities between time series.
-To do so, and depending on what causal link we want to show, we need some baseline time series, this can be DT's tweets
-not related to Covid, average of trends on Wikipedia pages or tweets related to Covid but by another instance (let's
-saty the FDA). Further, the causality between time series can be assessed via a Granger causality test. This should give
-the answer to our first question, whether DT was making or following the trend. Finally, we would like to look for
-alternative hypothesis to mitigate the impact of DT tweets. This can be done by reconducting the same analysis now with
-announcements times, mobility report or any other source that could explain the trends.
-
+The purpose of our analysis is to study the impact of Donald Trump’s tweets on the
+popularity of online content. To achieve this, we will take the following steps.
+First, we will conduct a causal impact study of Trump’s Covid-related tweets on
+Wikipedia and Google Trends pageviews for several topics (e.g. ‘Covid’). In practice,
+we will start by gathering all the tweets mentioning for instance
+‘hydorxychloroquine’ in the Kaggle tweet dataset mentioned earlier. We will then
+study the causal impact of each of these tweets on the associated Wikipedia/Google
+Trends timeseries on this topic using the [Causal Impact library](https://google.github.io/CausalImpact/CausalImpact.html). This library allows us to
+assess the impact of an intervention, i.e. a tweet by Trump, by comparing the
+evolution of the time series of interest with that of a few other control time series.
+For the control time series, we chose a set of ten popular non Covid-related topics
+such as ‘Google’.
+Second, to try to answer the question: ‘Was Trump a trend maker or a follower?’, we
+would like to conduct a [Granger causality test](https://en.wikipedia.org/wiki/Granger_causality) to assess whether Trump’s tweets
+are a good predictor of online trends or the other way around.
+Finally, to give more insight into Trump’s influence, we would like to redo the Causal
+Impact/Granger causality analysis using other causal factors such as official
+announcements or mobility restrictions. For the former, we will use the interventions
+of the Coronawiki dataset (e.g. first Covid case) and manually search for a few key
+milestones/announcements if that proves relevant. For the mobility restrictions, we
+will use the Apple and Google mobility reports to compute mobility and normality
+changepoints in a similar fashion as our reference paper ‘Sudden Attention Shifts on
+Wikipedia During the COVID-19 Crisis’.
 ## Proposed timeline
-We propose a timeline based on a 2-weeks assessment basis until late December:
-- Nov 17, Milestone 2 submission
-- Dec 1,
-- Dec 15,
-- Dec 22, Milestone 3 submission
 
-## Organization within the team
+We organized our team in subgroups of 2 to 3 people working on parts of the
+project. We meet twice a week to put our respective contributions to gather and
+discuss our progress and future steps.
+We propose a timeline structured in two-week intervals until late December (the
+people assigned to the task are in italic):
+- Nov 17, Milestone 2 submission;
+- Dec 1, Discuss feedback from Milestone 2 and apply required changes to
+existing notebook (Pietro, Matteo, Michelangelo), gather a list of
+topics/news/announcements/key Covid-related events to focus our analysis
+on (Sabri, Etienne), learn the basics of website creation (everyone);
+- Dec 15, Complete the analysis in the Notebook code with helpfer functions +
+graphs (Part 1 with tweets: Pietro, Matteo, Michelangelo; Part 2 with alternative
+hypotheses: Sabri, Etienne), Make a first draft of the data story (Visuals/format:
+Pietro, Matteo, Michelangelo; Text: Sabri, Etienne);
+- Dec 22, Ask for final feedback, detail/clarify the explanations (in English) and
+the comments in the Notebook and polish the data story website (For both the
+notebook and the data story, Part 1 with tweets: Pietro, Matteo, Michelangelo;
+Part 2 with alternative hypotheses: Sabri, Etienne).
 
-We organized the team as subteams (2 to 3 people) working on parts of the project. We meet twice a week to gather the
-work on different parts. Our organization follows this idea of dividing the tasks:
-
--
 
 ## Questions for TAs
--
-
-
-## questions
-
-Readme.md file containing the detailed project proposal (up to 1000 words). Your README.md should contain:
-Title
-Abstract: A 150 word description of the project idea and goals. What’s the motivation behind your project? What story
-would you like to tell, and why?
-Research Questions: A list of research questions you would like to address during the project.
-Proposed additional datasets (if any): List the additional dataset(s) you want to use (if any), and some ideas on how
-you expect to get, manage, process, and enrich it/them. Show us that you’ve read the docs and some examples, and that
-you have a clear idea on what to expect. Discuss data size and format if relevant. It is your responsibility to check
-that what you propose is feasible.
-Methods
-Proposed timeline
-Organization within the team: A list of internal milestones up until project Milestone P3.
-Questions for TAs (optional): Add here any questions you have for us related to the proposed project.
-Notebook containing initial analyses and data handling pipelines. We will grade the correctness, quality of code, and
-quality of textual descriptions.
+- Twitter events and announcements are discrete events, but mobility (provided
+by Apple and Google Mobility Reports) is not: should we keep working with
+mobility changepoints or would it make more sense to keep the entire time
+series?
+- We are making fairly strong assumptions by focusing our attention on events
+in the United States although the English Wikipedia and Google are used
+worldwide. Will it be sufficient to carefully interpret our results, or should we
+look for a way to identifiy online trends in the US?
+- We are somewhat stretching the assumptions of the Causal Impact analysis (e.g. correlation), which is besides meant to be used with only one causal effect (and not several tweets for instance). Can we carry on this way or should we look for more elaborate models?
