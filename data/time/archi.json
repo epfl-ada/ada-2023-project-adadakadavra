@@ -1,0 +1,1093 @@
+{
+  "search_metadata": {
+    "id": "657cad0ad5a5310a2e340761",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/c02dee2e18e24da2/657cad0ad5a5310a2e340761.json",
+    "created_at": "2023-12-15 19:46:18 UTC",
+    "processed_at": "2023-12-15 19:46:18 UTC",
+    "google_trends_url": "https://trends.google.com/trends/api/explore?tz=0&req=%7B%22comparisonItem%22%3A%5B%7B%22keyword%22%3A%22Time%22%2C%22geo%22%3A%22US%22%2C%22time%22%3A%222020-03-16T12+2020-03-20T12%22%7D%5D%2C%22category%22%3A%220%22%2C%22property%22%3A%22%22%2C%22userConfig%22%3A%22%7BuserType%3A+%5C%22USER_TYPE_LEGIT_USER%5C%22%7D%22%7D",
+    "raw_html_file": "https://serpapi.com/searches/c02dee2e18e24da2/657cad0ad5a5310a2e340761.html",
+    "prettify_html_file": "https://serpapi.com/searches/c02dee2e18e24da2/657cad0ad5a5310a2e340761.prettify",
+    "total_time_taken": 1.6
+  },
+  "search_parameters": {
+    "engine": "google_trends",
+    "q": "Time",
+    "geo": "US",
+    "cat": "0",
+    "date": "2020-03-16T12 2020-03-20T12",
+    "tz": "0",
+    "data_type": "TIMESERIES"
+  },
+  "interest_over_time": {
+    "timeline_data": [
+      {
+        "date": "Mar 16, 2020 at 12:00 PM",
+        "timestamp": "1584360000",
+        "values": [
+          {
+            "query": "Time",
+            "value": "84",
+            "extracted_value": 84
+          }
+        ]
+      },
+      {
+        "date": "Mar 16, 2020 at 1:00 PM",
+        "timestamp": "1584363600",
+        "values": [
+          {
+            "query": "Time",
+            "value": "84",
+            "extracted_value": 84
+          }
+        ]
+      },
+      {
+        "date": "Mar 16, 2020 at 2:00 PM",
+        "timestamp": "1584367200",
+        "values": [
+          {
+            "query": "Time",
+            "value": "85",
+            "extracted_value": 85
+          }
+        ]
+      },
+      {
+        "date": "Mar 16, 2020 at 3:00 PM",
+        "timestamp": "1584370800",
+        "values": [
+          {
+            "query": "Time",
+            "value": "74",
+            "extracted_value": 74
+          }
+        ]
+      },
+      {
+        "date": "Mar 16, 2020 at 4:00 PM",
+        "timestamp": "1584374400",
+        "values": [
+          {
+            "query": "Time",
+            "value": "72",
+            "extracted_value": 72
+          }
+        ]
+      },
+      {
+        "date": "Mar 16, 2020 at 5:00 PM",
+        "timestamp": "1584378000",
+        "values": [
+          {
+            "query": "Time",
+            "value": "72",
+            "extracted_value": 72
+          }
+        ]
+      },
+      {
+        "date": "Mar 16, 2020 at 6:00 PM",
+        "timestamp": "1584381600",
+        "values": [
+          {
+            "query": "Time",
+            "value": "67",
+            "extracted_value": 67
+          }
+        ]
+      },
+      {
+        "date": "Mar 16, 2020 at 7:00 PM",
+        "timestamp": "1584385200",
+        "values": [
+          {
+            "query": "Time",
+            "value": "71",
+            "extracted_value": 71
+          }
+        ]
+      },
+      {
+        "date": "Mar 16, 2020 at 8:00 PM",
+        "timestamp": "1584388800",
+        "values": [
+          {
+            "query": "Time",
+            "value": "77",
+            "extracted_value": 77
+          }
+        ]
+      },
+      {
+        "date": "Mar 16, 2020 at 9:00 PM",
+        "timestamp": "1584392400",
+        "values": [
+          {
+            "query": "Time",
+            "value": "74",
+            "extracted_value": 74
+          }
+        ]
+      },
+      {
+        "date": "Mar 16, 2020 at 10:00 PM",
+        "timestamp": "1584396000",
+        "values": [
+          {
+            "query": "Time",
+            "value": "78",
+            "extracted_value": 78
+          }
+        ]
+      },
+      {
+        "date": "Mar 16, 2020 at 11:00 PM",
+        "timestamp": "1584399600",
+        "values": [
+          {
+            "query": "Time",
+            "value": "81",
+            "extracted_value": 81
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 12:00 AM",
+        "timestamp": "1584403200",
+        "values": [
+          {
+            "query": "Time",
+            "value": "72",
+            "extracted_value": 72
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 1:00 AM",
+        "timestamp": "1584406800",
+        "values": [
+          {
+            "query": "Time",
+            "value": "73",
+            "extracted_value": 73
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 2:00 AM",
+        "timestamp": "1584410400",
+        "values": [
+          {
+            "query": "Time",
+            "value": "84",
+            "extracted_value": 84
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 3:00 AM",
+        "timestamp": "1584414000",
+        "values": [
+          {
+            "query": "Time",
+            "value": "75",
+            "extracted_value": 75
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 4:00 AM",
+        "timestamp": "1584417600",
+        "values": [
+          {
+            "query": "Time",
+            "value": "79",
+            "extracted_value": 79
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 5:00 AM",
+        "timestamp": "1584421200",
+        "values": [
+          {
+            "query": "Time",
+            "value": "87",
+            "extracted_value": 87
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 6:00 AM",
+        "timestamp": "1584424800",
+        "values": [
+          {
+            "query": "Time",
+            "value": "87",
+            "extracted_value": 87
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 7:00 AM",
+        "timestamp": "1584428400",
+        "values": [
+          {
+            "query": "Time",
+            "value": "85",
+            "extracted_value": 85
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 8:00 AM",
+        "timestamp": "1584432000",
+        "values": [
+          {
+            "query": "Time",
+            "value": "77",
+            "extracted_value": 77
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 9:00 AM",
+        "timestamp": "1584435600",
+        "values": [
+          {
+            "query": "Time",
+            "value": "88",
+            "extracted_value": 88
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 10:00 AM",
+        "timestamp": "1584439200",
+        "values": [
+          {
+            "query": "Time",
+            "value": "89",
+            "extracted_value": 89
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 11:00 AM",
+        "timestamp": "1584442800",
+        "values": [
+          {
+            "query": "Time",
+            "value": "82",
+            "extracted_value": 82
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 12:00 PM",
+        "timestamp": "1584446400",
+        "values": [
+          {
+            "query": "Time",
+            "value": "77",
+            "extracted_value": 77
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 1:00 PM",
+        "timestamp": "1584450000",
+        "values": [
+          {
+            "query": "Time",
+            "value": "77",
+            "extracted_value": 77
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 2:00 PM",
+        "timestamp": "1584453600",
+        "values": [
+          {
+            "query": "Time",
+            "value": "80",
+            "extracted_value": 80
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 3:00 PM",
+        "timestamp": "1584457200",
+        "values": [
+          {
+            "query": "Time",
+            "value": "69",
+            "extracted_value": 69
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 4:00 PM",
+        "timestamp": "1584460800",
+        "values": [
+          {
+            "query": "Time",
+            "value": "69",
+            "extracted_value": 69
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 5:00 PM",
+        "timestamp": "1584464400",
+        "values": [
+          {
+            "query": "Time",
+            "value": "68",
+            "extracted_value": 68
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 6:00 PM",
+        "timestamp": "1584468000",
+        "values": [
+          {
+            "query": "Time",
+            "value": "72",
+            "extracted_value": 72
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 7:00 PM",
+        "timestamp": "1584471600",
+        "values": [
+          {
+            "query": "Time",
+            "value": "69",
+            "extracted_value": 69
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 8:00 PM",
+        "timestamp": "1584475200",
+        "values": [
+          {
+            "query": "Time",
+            "value": "65",
+            "extracted_value": 65
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 9:00 PM",
+        "timestamp": "1584478800",
+        "values": [
+          {
+            "query": "Time",
+            "value": "70",
+            "extracted_value": 70
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 10:00 PM",
+        "timestamp": "1584482400",
+        "values": [
+          {
+            "query": "Time",
+            "value": "71",
+            "extracted_value": 71
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 11:00 PM",
+        "timestamp": "1584486000",
+        "values": [
+          {
+            "query": "Time",
+            "value": "78",
+            "extracted_value": 78
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 12:00 AM",
+        "timestamp": "1584489600",
+        "values": [
+          {
+            "query": "Time",
+            "value": "84",
+            "extracted_value": 84
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 1:00 AM",
+        "timestamp": "1584493200",
+        "values": [
+          {
+            "query": "Time",
+            "value": "81",
+            "extracted_value": 81
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 2:00 AM",
+        "timestamp": "1584496800",
+        "values": [
+          {
+            "query": "Time",
+            "value": "78",
+            "extracted_value": 78
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 3:00 AM",
+        "timestamp": "1584500400",
+        "values": [
+          {
+            "query": "Time",
+            "value": "73",
+            "extracted_value": 73
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 4:00 AM",
+        "timestamp": "1584504000",
+        "values": [
+          {
+            "query": "Time",
+            "value": "75",
+            "extracted_value": 75
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 5:00 AM",
+        "timestamp": "1584507600",
+        "values": [
+          {
+            "query": "Time",
+            "value": "85",
+            "extracted_value": 85
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 6:00 AM",
+        "timestamp": "1584511200",
+        "values": [
+          {
+            "query": "Time",
+            "value": "79",
+            "extracted_value": 79
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 7:00 AM",
+        "timestamp": "1584514800",
+        "values": [
+          {
+            "query": "Time",
+            "value": "80",
+            "extracted_value": 80
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 8:00 AM",
+        "timestamp": "1584518400",
+        "values": [
+          {
+            "query": "Time",
+            "value": "93",
+            "extracted_value": 93
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 9:00 AM",
+        "timestamp": "1584522000",
+        "values": [
+          {
+            "query": "Time",
+            "value": "80",
+            "extracted_value": 80
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 10:00 AM",
+        "timestamp": "1584525600",
+        "values": [
+          {
+            "query": "Time",
+            "value": "82",
+            "extracted_value": 82
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 11:00 AM",
+        "timestamp": "1584529200",
+        "values": [
+          {
+            "query": "Time",
+            "value": "76",
+            "extracted_value": 76
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 12:00 PM",
+        "timestamp": "1584532800",
+        "values": [
+          {
+            "query": "Time",
+            "value": "77",
+            "extracted_value": 77
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 1:00 PM",
+        "timestamp": "1584536400",
+        "values": [
+          {
+            "query": "Time",
+            "value": "81",
+            "extracted_value": 81
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 2:00 PM",
+        "timestamp": "1584540000",
+        "values": [
+          {
+            "query": "Time",
+            "value": "80",
+            "extracted_value": 80
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 3:00 PM",
+        "timestamp": "1584543600",
+        "values": [
+          {
+            "query": "Time",
+            "value": "81",
+            "extracted_value": 81
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 4:00 PM",
+        "timestamp": "1584547200",
+        "values": [
+          {
+            "query": "Time",
+            "value": "69",
+            "extracted_value": 69
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 5:00 PM",
+        "timestamp": "1584550800",
+        "values": [
+          {
+            "query": "Time",
+            "value": "69",
+            "extracted_value": 69
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 6:00 PM",
+        "timestamp": "1584554400",
+        "values": [
+          {
+            "query": "Time",
+            "value": "73",
+            "extracted_value": 73
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 7:00 PM",
+        "timestamp": "1584558000",
+        "values": [
+          {
+            "query": "Time",
+            "value": "78",
+            "extracted_value": 78
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 8:00 PM",
+        "timestamp": "1584561600",
+        "values": [
+          {
+            "query": "Time",
+            "value": "74",
+            "extracted_value": 74
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 9:00 PM",
+        "timestamp": "1584565200",
+        "values": [
+          {
+            "query": "Time",
+            "value": "77",
+            "extracted_value": 77
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 10:00 PM",
+        "timestamp": "1584568800",
+        "values": [
+          {
+            "query": "Time",
+            "value": "80",
+            "extracted_value": 80
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 11:00 PM",
+        "timestamp": "1584572400",
+        "values": [
+          {
+            "query": "Time",
+            "value": "77",
+            "extracted_value": 77
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 12:00 AM",
+        "timestamp": "1584576000",
+        "values": [
+          {
+            "query": "Time",
+            "value": "78",
+            "extracted_value": 78
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 1:00 AM",
+        "timestamp": "1584579600",
+        "values": [
+          {
+            "query": "Time",
+            "value": "79",
+            "extracted_value": 79
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 2:00 AM",
+        "timestamp": "1584583200",
+        "values": [
+          {
+            "query": "Time",
+            "value": "66",
+            "extracted_value": 66
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 3:00 AM",
+        "timestamp": "1584586800",
+        "values": [
+          {
+            "query": "Time",
+            "value": "74",
+            "extracted_value": 74
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 4:00 AM",
+        "timestamp": "1584590400",
+        "values": [
+          {
+            "query": "Time",
+            "value": "77",
+            "extracted_value": 77
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 5:00 AM",
+        "timestamp": "1584594000",
+        "values": [
+          {
+            "query": "Time",
+            "value": "84",
+            "extracted_value": 84
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 6:00 AM",
+        "timestamp": "1584597600",
+        "values": [
+          {
+            "query": "Time",
+            "value": "79",
+            "extracted_value": 79
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 7:00 AM",
+        "timestamp": "1584601200",
+        "values": [
+          {
+            "query": "Time",
+            "value": "94",
+            "extracted_value": 94
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 8:00 AM",
+        "timestamp": "1584604800",
+        "values": [
+          {
+            "query": "Time",
+            "value": "92",
+            "extracted_value": 92
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 9:00 AM",
+        "timestamp": "1584608400",
+        "values": [
+          {
+            "query": "Time",
+            "value": "83",
+            "extracted_value": 83
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 10:00 AM",
+        "timestamp": "1584612000",
+        "values": [
+          {
+            "query": "Time",
+            "value": "100",
+            "extracted_value": 100
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 11:00 AM",
+        "timestamp": "1584615600",
+        "values": [
+          {
+            "query": "Time",
+            "value": "80",
+            "extracted_value": 80
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 12:00 PM",
+        "timestamp": "1584619200",
+        "values": [
+          {
+            "query": "Time",
+            "value": "84",
+            "extracted_value": 84
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 1:00 PM",
+        "timestamp": "1584622800",
+        "values": [
+          {
+            "query": "Time",
+            "value": "85",
+            "extracted_value": 85
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 2:00 PM",
+        "timestamp": "1584626400",
+        "values": [
+          {
+            "query": "Time",
+            "value": "81",
+            "extracted_value": 81
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 3:00 PM",
+        "timestamp": "1584630000",
+        "values": [
+          {
+            "query": "Time",
+            "value": "75",
+            "extracted_value": 75
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 4:00 PM",
+        "timestamp": "1584633600",
+        "values": [
+          {
+            "query": "Time",
+            "value": "72",
+            "extracted_value": 72
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 5:00 PM",
+        "timestamp": "1584637200",
+        "values": [
+          {
+            "query": "Time",
+            "value": "67",
+            "extracted_value": 67
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 6:00 PM",
+        "timestamp": "1584640800",
+        "values": [
+          {
+            "query": "Time",
+            "value": "76",
+            "extracted_value": 76
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 7:00 PM",
+        "timestamp": "1584644400",
+        "values": [
+          {
+            "query": "Time",
+            "value": "71",
+            "extracted_value": 71
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 8:00 PM",
+        "timestamp": "1584648000",
+        "values": [
+          {
+            "query": "Time",
+            "value": "68",
+            "extracted_value": 68
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 9:00 PM",
+        "timestamp": "1584651600",
+        "values": [
+          {
+            "query": "Time",
+            "value": "69",
+            "extracted_value": 69
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 10:00 PM",
+        "timestamp": "1584655200",
+        "values": [
+          {
+            "query": "Time",
+            "value": "78",
+            "extracted_value": 78
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 11:00 PM",
+        "timestamp": "1584658800",
+        "values": [
+          {
+            "query": "Time",
+            "value": "79",
+            "extracted_value": 79
+          }
+        ]
+      },
+      {
+        "date": "Mar 20, 2020 at 12:00 AM",
+        "timestamp": "1584662400",
+        "values": [
+          {
+            "query": "Time",
+            "value": "82",
+            "extracted_value": 82
+          }
+        ]
+      },
+      {
+        "date": "Mar 20, 2020 at 1:00 AM",
+        "timestamp": "1584666000",
+        "values": [
+          {
+            "query": "Time",
+            "value": "79",
+            "extracted_value": 79
+          }
+        ]
+      },
+      {
+        "date": "Mar 20, 2020 at 2:00 AM",
+        "timestamp": "1584669600",
+        "values": [
+          {
+            "query": "Time",
+            "value": "83",
+            "extracted_value": 83
+          }
+        ]
+      },
+      {
+        "date": "Mar 20, 2020 at 3:00 AM",
+        "timestamp": "1584673200",
+        "values": [
+          {
+            "query": "Time",
+            "value": "78",
+            "extracted_value": 78
+          }
+        ]
+      },
+      {
+        "date": "Mar 20, 2020 at 4:00 AM",
+        "timestamp": "1584676800",
+        "values": [
+          {
+            "query": "Time",
+            "value": "86",
+            "extracted_value": 86
+          }
+        ]
+      },
+      {
+        "date": "Mar 20, 2020 at 5:00 AM",
+        "timestamp": "1584680400",
+        "values": [
+          {
+            "query": "Time",
+            "value": "88",
+            "extracted_value": 88
+          }
+        ]
+      },
+      {
+        "date": "Mar 20, 2020 at 6:00 AM",
+        "timestamp": "1584684000",
+        "values": [
+          {
+            "query": "Time",
+            "value": "87",
+            "extracted_value": 87
+          }
+        ]
+      },
+      {
+        "date": "Mar 20, 2020 at 7:00 AM",
+        "timestamp": "1584687600",
+        "values": [
+          {
+            "query": "Time",
+            "value": "95",
+            "extracted_value": 95
+          }
+        ]
+      },
+      {
+        "date": "Mar 20, 2020 at 8:00 AM",
+        "timestamp": "1584691200",
+        "values": [
+          {
+            "query": "Time",
+            "value": "85",
+            "extracted_value": 85
+          }
+        ]
+      },
+      {
+        "date": "Mar 20, 2020 at 9:00 AM",
+        "timestamp": "1584694800",
+        "values": [
+          {
+            "query": "Time",
+            "value": "96",
+            "extracted_value": 96
+          }
+        ]
+      },
+      {
+        "date": "Mar 20, 2020 at 10:00 AM",
+        "timestamp": "1584698400",
+        "values": [
+          {
+            "query": "Time",
+            "value": "84",
+            "extracted_value": 84
+          }
+        ]
+      },
+      {
+        "date": "Mar 20, 2020 at 11:00 AM",
+        "timestamp": "1584702000",
+        "values": [
+          {
+            "query": "Time",
+            "value": "84",
+            "extracted_value": 84
+          }
+        ]
+      },
+      {
+        "date": "Mar 20, 2020 at 12:00 PM",
+        "timestamp": "1584705600",
+        "values": [
+          {
+            "query": "Time",
+            "value": "82",
+            "extracted_value": 82
+          }
+        ]
+      }
+    ]
+  }
+}
