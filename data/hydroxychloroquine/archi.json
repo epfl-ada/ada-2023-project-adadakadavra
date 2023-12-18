@@ -1,0 +1,1093 @@
+{
+  "search_metadata": {
+    "id": "657cab40351764ab809e75c8",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/da43bbf745bb880d/657cab40351764ab809e75c8.json",
+    "created_at": "2023-12-15 19:38:40 UTC",
+    "processed_at": "2023-12-15 19:38:40 UTC",
+    "google_trends_url": "https://trends.google.com/trends/api/explore?tz=0&req=%7B%22comparisonItem%22%3A%5B%7B%22keyword%22%3A%22Hydroxychloroquine%22%2C%22geo%22%3A%22US%22%2C%22time%22%3A%222020-03-16T12+2020-03-20T12%22%7D%5D%2C%22category%22%3A%220%22%2C%22property%22%3A%22%22%2C%22userConfig%22%3A%22%7BuserType%3A+%5C%22USER_TYPE_LEGIT_USER%5C%22%7D%22%7D",
+    "raw_html_file": "https://serpapi.com/searches/da43bbf745bb880d/657cab40351764ab809e75c8.html",
+    "prettify_html_file": "https://serpapi.com/searches/da43bbf745bb880d/657cab40351764ab809e75c8.prettify",
+    "total_time_taken": 3.17
+  },
+  "search_parameters": {
+    "engine": "google_trends",
+    "q": "Hydroxychloroquine",
+    "geo": "US",
+    "cat": "0",
+    "date": "2020-03-16T12 2020-03-20T12",
+    "tz": "0",
+    "data_type": "TIMESERIES"
+  },
+  "interest_over_time": {
+    "timeline_data": [
+      {
+        "date": "Mar 16, 2020 at 12:00 PM",
+        "timestamp": "1584360000",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "1",
+            "extracted_value": 1
+          }
+        ]
+      },
+      {
+        "date": "Mar 16, 2020 at 1:00 PM",
+        "timestamp": "1584363600",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "1",
+            "extracted_value": 1
+          }
+        ]
+      },
+      {
+        "date": "Mar 16, 2020 at 2:00 PM",
+        "timestamp": "1584367200",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "2",
+            "extracted_value": 2
+          }
+        ]
+      },
+      {
+        "date": "Mar 16, 2020 at 3:00 PM",
+        "timestamp": "1584370800",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "1",
+            "extracted_value": 1
+          }
+        ]
+      },
+      {
+        "date": "Mar 16, 2020 at 4:00 PM",
+        "timestamp": "1584374400",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "1",
+            "extracted_value": 1
+          }
+        ]
+      },
+      {
+        "date": "Mar 16, 2020 at 5:00 PM",
+        "timestamp": "1584378000",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "1",
+            "extracted_value": 1
+          }
+        ]
+      },
+      {
+        "date": "Mar 16, 2020 at 6:00 PM",
+        "timestamp": "1584381600",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "1",
+            "extracted_value": 1
+          }
+        ]
+      },
+      {
+        "date": "Mar 16, 2020 at 7:00 PM",
+        "timestamp": "1584385200",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "1",
+            "extracted_value": 1
+          }
+        ]
+      },
+      {
+        "date": "Mar 16, 2020 at 8:00 PM",
+        "timestamp": "1584388800",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "2",
+            "extracted_value": 2
+          }
+        ]
+      },
+      {
+        "date": "Mar 16, 2020 at 9:00 PM",
+        "timestamp": "1584392400",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "1",
+            "extracted_value": 1
+          }
+        ]
+      },
+      {
+        "date": "Mar 16, 2020 at 10:00 PM",
+        "timestamp": "1584396000",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "1",
+            "extracted_value": 1
+          }
+        ]
+      },
+      {
+        "date": "Mar 16, 2020 at 11:00 PM",
+        "timestamp": "1584399600",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "1",
+            "extracted_value": 0
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 12:00 AM",
+        "timestamp": "1584403200",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "1",
+            "extracted_value": 1
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 1:00 AM",
+        "timestamp": "1584406800",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "3",
+            "extracted_value": 3
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 2:00 AM",
+        "timestamp": "1584410400",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "53",
+            "extracted_value": 53
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 3:00 AM",
+        "timestamp": "1584414000",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "11",
+            "extracted_value": 11
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 4:00 AM",
+        "timestamp": "1584417600",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "6",
+            "extracted_value": 6
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 5:00 AM",
+        "timestamp": "1584421200",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "4",
+            "extracted_value": 4
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 6:00 AM",
+        "timestamp": "1584424800",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "5",
+            "extracted_value": 5
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 7:00 AM",
+        "timestamp": "1584428400",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "4",
+            "extracted_value": 4
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 8:00 AM",
+        "timestamp": "1584432000",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "0",
+            "extracted_value": 0
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 9:00 AM",
+        "timestamp": "1584435600",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "4",
+            "extracted_value": 4
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 10:00 AM",
+        "timestamp": "1584439200",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "6",
+            "extracted_value": 6
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 11:00 AM",
+        "timestamp": "1584442800",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "7",
+            "extracted_value": 7
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 12:00 PM",
+        "timestamp": "1584446400",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "10",
+            "extracted_value": 10
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 1:00 PM",
+        "timestamp": "1584450000",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "6",
+            "extracted_value": 6
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 2:00 PM",
+        "timestamp": "1584453600",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "5",
+            "extracted_value": 5
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 3:00 PM",
+        "timestamp": "1584457200",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "5",
+            "extracted_value": 5
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 4:00 PM",
+        "timestamp": "1584460800",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "5",
+            "extracted_value": 5
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 5:00 PM",
+        "timestamp": "1584464400",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "6",
+            "extracted_value": 6
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 6:00 PM",
+        "timestamp": "1584468000",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "4",
+            "extracted_value": 4
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 7:00 PM",
+        "timestamp": "1584471600",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "4",
+            "extracted_value": 4
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 8:00 PM",
+        "timestamp": "1584475200",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "4",
+            "extracted_value": 4
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 9:00 PM",
+        "timestamp": "1584478800",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "4",
+            "extracted_value": 4
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 10:00 PM",
+        "timestamp": "1584482400",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "5",
+            "extracted_value": 5
+          }
+        ]
+      },
+      {
+        "date": "Mar 17, 2020 at 11:00 PM",
+        "timestamp": "1584486000",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "4",
+            "extracted_value": 4
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 12:00 AM",
+        "timestamp": "1584489600",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "4",
+            "extracted_value": 4
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 1:00 AM",
+        "timestamp": "1584493200",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "5",
+            "extracted_value": 5
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 2:00 AM",
+        "timestamp": "1584496800",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "10",
+            "extracted_value": 10
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 3:00 AM",
+        "timestamp": "1584500400",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "4",
+            "extracted_value": 4
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 4:00 AM",
+        "timestamp": "1584504000",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "3",
+            "extracted_value": 3
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 5:00 AM",
+        "timestamp": "1584507600",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "0",
+            "extracted_value": 0
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 6:00 AM",
+        "timestamp": "1584511200",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "6",
+            "extracted_value": 6
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 7:00 AM",
+        "timestamp": "1584514800",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "5",
+            "extracted_value": 5
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 8:00 AM",
+        "timestamp": "1584518400",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "5",
+            "extracted_value": 5
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 9:00 AM",
+        "timestamp": "1584522000",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "0",
+            "extracted_value": 0
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 10:00 AM",
+        "timestamp": "1584525600",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "4",
+            "extracted_value": 4
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 11:00 AM",
+        "timestamp": "1584529200",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "6",
+            "extracted_value": 6
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 12:00 PM",
+        "timestamp": "1584532800",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "4",
+            "extracted_value": 4
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 1:00 PM",
+        "timestamp": "1584536400",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "3",
+            "extracted_value": 3
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 2:00 PM",
+        "timestamp": "1584540000",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "4",
+            "extracted_value": 4
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 3:00 PM",
+        "timestamp": "1584543600",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "4",
+            "extracted_value": 4
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 4:00 PM",
+        "timestamp": "1584547200",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "10",
+            "extracted_value": 10
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 5:00 PM",
+        "timestamp": "1584550800",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "10",
+            "extracted_value": 10
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 6:00 PM",
+        "timestamp": "1584554400",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "6",
+            "extracted_value": 6
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 7:00 PM",
+        "timestamp": "1584558000",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "6",
+            "extracted_value": 6
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 8:00 PM",
+        "timestamp": "1584561600",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "4",
+            "extracted_value": 4
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 9:00 PM",
+        "timestamp": "1584565200",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "5",
+            "extracted_value": 5
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 10:00 PM",
+        "timestamp": "1584568800",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "3",
+            "extracted_value": 3
+          }
+        ]
+      },
+      {
+        "date": "Mar 18, 2020 at 11:00 PM",
+        "timestamp": "1584572400",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "5",
+            "extracted_value": 5
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 12:00 AM",
+        "timestamp": "1584576000",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "7",
+            "extracted_value": 7
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 1:00 AM",
+        "timestamp": "1584579600",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "30",
+            "extracted_value": 30
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 2:00 AM",
+        "timestamp": "1584583200",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "31",
+            "extracted_value": 31
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 3:00 AM",
+        "timestamp": "1584586800",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "15",
+            "extracted_value": 15
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 4:00 AM",
+        "timestamp": "1584590400",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "16",
+            "extracted_value": 16
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 5:00 AM",
+        "timestamp": "1584594000",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "12",
+            "extracted_value": 12
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 6:00 AM",
+        "timestamp": "1584597600",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "8",
+            "extracted_value": 8
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 7:00 AM",
+        "timestamp": "1584601200",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "11",
+            "extracted_value": 11
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 8:00 AM",
+        "timestamp": "1584604800",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "11",
+            "extracted_value": 11
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 9:00 AM",
+        "timestamp": "1584608400",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "11",
+            "extracted_value": 11
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 10:00 AM",
+        "timestamp": "1584612000",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "12",
+            "extracted_value": 12
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 11:00 AM",
+        "timestamp": "1584615600",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "15",
+            "extracted_value": 15
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 12:00 PM",
+        "timestamp": "1584619200",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "15",
+            "extracted_value": 15
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 1:00 PM",
+        "timestamp": "1584622800",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "21",
+            "extracted_value": 21
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 2:00 PM",
+        "timestamp": "1584626400",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "20",
+            "extracted_value": 20
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 3:00 PM",
+        "timestamp": "1584630000",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "100",
+            "extracted_value": 100
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 4:00 PM",
+        "timestamp": "1584633600",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "90",
+            "extracted_value": 90
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 5:00 PM",
+        "timestamp": "1584637200",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "67",
+            "extracted_value": 67
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 6:00 PM",
+        "timestamp": "1584640800",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "48",
+            "extracted_value": 48
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 7:00 PM",
+        "timestamp": "1584644400",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "46",
+            "extracted_value": 46
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 8:00 PM",
+        "timestamp": "1584648000",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "41",
+            "extracted_value": 41
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 9:00 PM",
+        "timestamp": "1584651600",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "35",
+            "extracted_value": 35
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 10:00 PM",
+        "timestamp": "1584655200",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "51",
+            "extracted_value": 51
+          }
+        ]
+      },
+      {
+        "date": "Mar 19, 2020 at 11:00 PM",
+        "timestamp": "1584658800",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "46",
+            "extracted_value": 46
+          }
+        ]
+      },
+      {
+        "date": "Mar 20, 2020 at 12:00 AM",
+        "timestamp": "1584662400",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "50",
+            "extracted_value": 50
+          }
+        ]
+      },
+      {
+        "date": "Mar 20, 2020 at 1:00 AM",
+        "timestamp": "1584666000",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "40",
+            "extracted_value": 40
+          }
+        ]
+      },
+      {
+        "date": "Mar 20, 2020 at 2:00 AM",
+        "timestamp": "1584669600",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "69",
+            "extracted_value": 69
+          }
+        ]
+      },
+      {
+        "date": "Mar 20, 2020 at 3:00 AM",
+        "timestamp": "1584673200",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "42",
+            "extracted_value": 42
+          }
+        ]
+      },
+      {
+        "date": "Mar 20, 2020 at 4:00 AM",
+        "timestamp": "1584676800",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "36",
+            "extracted_value": 36
+          }
+        ]
+      },
+      {
+        "date": "Mar 20, 2020 at 5:00 AM",
+        "timestamp": "1584680400",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "33",
+            "extracted_value": 33
+          }
+        ]
+      },
+      {
+        "date": "Mar 20, 2020 at 6:00 AM",
+        "timestamp": "1584684000",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "26",
+            "extracted_value": 26
+          }
+        ]
+      },
+      {
+        "date": "Mar 20, 2020 at 7:00 AM",
+        "timestamp": "1584687600",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "18",
+            "extracted_value": 18
+          }
+        ]
+      },
+      {
+        "date": "Mar 20, 2020 at 8:00 AM",
+        "timestamp": "1584691200",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "15",
+            "extracted_value": 15
+          }
+        ]
+      },
+      {
+        "date": "Mar 20, 2020 at 9:00 AM",
+        "timestamp": "1584694800",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "23",
+            "extracted_value": 23
+          }
+        ]
+      },
+      {
+        "date": "Mar 20, 2020 at 10:00 AM",
+        "timestamp": "1584698400",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "34",
+            "extracted_value": 34
+          }
+        ]
+      },
+      {
+        "date": "Mar 20, 2020 at 11:00 AM",
+        "timestamp": "1584702000",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "40",
+            "extracted_value": 40
+          }
+        ]
+      },
+      {
+        "date": "Mar 20, 2020 at 12:00 PM",
+        "timestamp": "1584705600",
+        "values": [
+          {
+            "query": "Hydroxychloroquine",
+            "value": "33",
+            "extracted_value": 33
+          }
+        ]
+      }
+    ]
+  }
+}
