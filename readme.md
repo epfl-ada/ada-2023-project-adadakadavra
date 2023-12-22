@@ -1,6 +1,6 @@
 # Donald Trump's Influence during Covid: How bad can the Impact of a Leader's Communication be?
 
-<img src="images/trump_sample_tweet.png">
+<img src="images/trump_sample_tweet.jpg">
 
 ## Abstract :
 
