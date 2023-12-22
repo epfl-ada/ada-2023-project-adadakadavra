@@ -44,16 +44,38 @@ Finally, the last dataset was used to get time series of the number of new cases
 
 ## Method
 
-The purpose of our analysis is to study the impact of Donald Trump’s tweets on the popularity of online content. To achieve this, we took the following steps: 
+The purpose of our analysis is to study the impact of Donald Trump’s tweets on the popularity of online content. To achieve this, we took the following steps:
 
-    1. We contextualized the problem with some plots showing the co-evolution of online traffic and mobility during the pandemic. We measured online traffic using Wikipedia page view statistics. Mobility, on the other hand, was measured using Google mobility reports.
-    2. We performed some preliminary analyses of Trump’s tweets. Which words are more frequent? What is the evolution of the number of tweets/retweets during the pandemic? What about Covid-related tweets? All these analyses consisted in basic manipulation and plotting using the dataset with Trump’s tweets.
-    3. We clustered Trump’s tweets into topics, after reducing dimensionality with Latent Dirichlet Allocation. For this, we used [Gensim](https://radimrehurek.com/gensim/), an open-source library for natural language processing.
-    4. We then conducted a [Granger causality test](https://en.wikipedia.org/wiki/Granger_causality) between Trump’s tweets and the evolution of Wikipedia page views for popular topic related to fake news: ‘hydroxychloroquine’. In practice, we started by gathering all the tweets mentioning ‘hydorxychloroquine’ in the Kaggle tweet dataset mentioned earlier. We then performed a Granger causality tests between the two time series, using the statsmodels library, a Python module providing a range of statistical tools.
-    5. We then conducted a causal impact study of Trump’s Covid-related tweets on Google Trends queries, again for ‘hydroxychloroquine’. We then studied the causal impact of of the first of Trump’s tweets on the subject during the pandemic on the associated Google Trends time series on this topic using the [Causal Impact library](https://google.github.io/CausalImpact/CausalImpact.html). This library allows us to assess the impact of an intervention, i.e. a tweet by Trump, by comparing the evolution of the time series of interest with that of a few other control time series. For the control time series, we chose a set of five popular non Covid-related topics such as ‘Climate’  after verifying that assumption for conducting the test were verified. We then performed the exact same Causal Impact analysis, using another intervention: the first mobility changepoint in the US, as measured by Manoel et al.
-    6. Using [VADER](https://www.analyticsvidhya.com/blog/2021/06/vader-for-sentiment-analysis/), a rule-based sentiment analyzer specific for social media text, we then analyzed the sentiment of Trump’s topics.
-    7. We then trained linear regression model from the statsmodel library to predict the number of retweets as a function of sentiment and tweet topic. The topic of tweet was found manually, by looking for tweets mentioning a set of words we thought matched the topic of interest (e.g. ‘Biden’).
-    8. Finally, we trained a logistic regression model to predict the sentiment of Trump’s tweet (negative/positive) as a function of the rise in the number of Covid cases and the overall sentiment of American tweets over the period of interest.
+1. **Contextualization**
+    - We provided a context with plots showing the co-evolution of online traffic and mobility during the pandemic.
+    - Online traffic was measured using Wikipedia page view statistics, and mobility was measured using Google mobility reports.
+
+2. **Preliminary Analyses of Trump's Tweets**
+    - Examined word frequency, evolution of tweet/retweet numbers during the pandemic, and Covid-related tweets.
+    - Basic manipulation and plotting were performed using the dataset with Trump’s tweets.
+
+3. **Topic Clustering with Latent Dirichlet Allocation (LDA)**
+    - Clustered Trump’s tweets into topics using Latent Dirichlet Allocation.
+    - Used [Gensim](https://radimrehurek.com/gensim/), an open-source library for natural language processing.
+
+4. **Granger Causality Test**
+    - Conducted a [Granger causality test](https://en.wikipedia.org/wiki/Granger_causality) between Trump’s tweets and the evolution of Wikipedia page views for the topic 'hydroxychloroquine'.
+    - Used the statsmodels library for statistical analysis.
+
+5. **Causal Impact Study**
+    - Conducted a causal impact study of Trump’s Covid-related tweets on Google Trends queries, specifically for 'hydroxychloroquine'.
+    - Used the [Causal Impact library](https://google.github.io/CausalImpact/CausalImpact.html).
+    - Examined the impact of Trump’s tweets on Google Trends time series for both Covid-related and non-Covid-related topics.
+
+6. **Sentiment Analysis with VADER**
+    - Analyzed the sentiment of Trump’s tweets using [VADER](https://www.analyticsvidhya.com/blog/2021/06/vader-for-sentiment-analysis/), a rule-based sentiment analyzer for social media text.
+
+7. **Linear Regression Model for Retweet Prediction**
+    - Trained a linear regression model from the statsmodel library to predict the number of retweets as a function of sentiment and tweet topic.
+
+8. **Logistic Regression Model for Sentiment Prediction**
+    - Trained a logistic regression model to predict the sentiment of Trump’s tweets (negative/positive) based on the rise in the number of Covid cases and the overall sentiment of American tweets over the period of interest.
+
 
 ## Executed timeline
 We organized our team in subgroups of 2 to 3 people working on parts of the
