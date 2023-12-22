@@ -65,8 +65,7 @@ The purpose of our analysis is to study the impact of Donald Trump’s tweets on
 5. **Causal Impact Study**
     - Conducted a causal impact study of Trump’s Covid-related tweets on Google Trends queries, specifically for 'hydroxychloroquine'.
     - Used the [Causal Impact library](https://google.github.io/CausalImpact/CausalImpact.html).
-    - Examined the impact of Trump’s tweets on Google Trends time series for both Covid-related and non-Covid-related topics.
-
+  
 6. **Sentiment Analysis with VADER**
     - Analyzed the sentiment of Trump’s tweets using [VADER](https://www.analyticsvidhya.com/blog/2021/06/vader-for-sentiment-analysis/), a rule-based sentiment analyzer for social media text.
 
@@ -83,21 +82,21 @@ project. We meet twice a week to put our respective contributions to gather and
 discuss our progress and future steps.
 We propose a timeline structured in two-week intervals until late December (the
 people assigned to the task are in italic):
-- Nov 17, Milestone 2 submission;
+- Nov 17, Milestone 2 submission,
 - Dec 1, Discuss feedback from Milestone 2 and apply required changes to
 existing notebook, gather a list of
 topics/news/announcements/key Covid-related events to focus our analysis
-on, learn the basics of website creation;
+on, learn the basics of website creation,
 - Dec 15, Complete the analysis in the Notebook code with helpfer functions +
-graphs, Make a first draft of the data story;
+graphs, Make a first draft of the data story,
 - Dec 22, Ask for final feedback, detail/clarify the explanations (in English) and
 the comments in the Notebook and polish the data story website.
 
 
 ## Contributions
-- Pietro : Set up the website and focused on the context plots
-- Michel Angelo: Conducted Trump’s tweet analysis and LDA for topics
-- Sabri: Focused on the causal analysis and the study of Granger causality
-- Etienne: Focused on using the retweets to assess Trump’s influence, based on topics and sentiment analysis
-- Matteo: Proposed to predict the sentiments of Trump’s tweet from external data, studied the evolution of sentiments over time
+- Pietro : Set up the website and focused on the context plots,
+- Michel Angelo: Conducted Trump’s tweet analysis and LDA for topics,
+- Sabri: Focused on the causal analysis and the study of Granger causality,
+- Etienne: Focused on using the retweets to assess Trump’s influence, based on topics and sentiment analysis,
+- Matteo: Proposed to predict the sentiments of Trump’s tweet from external data, studied the evolution of sentiments over time.
 
